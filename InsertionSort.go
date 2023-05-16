@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	nums := []int{2, 1, 6, 5, 3, 4} // 1 2 3 5 6
+	nums := []int{2, 1, 6, 5, 3, 4} 
 	fmt.Println(insertionSort(nums))
 }
 
