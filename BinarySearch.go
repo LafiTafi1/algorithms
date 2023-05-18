@@ -13,7 +13,7 @@ func binarySearch(slice []int, n int) bool {
 	first := 0
 	last := len(slice) - 1
 	for last >= first {
-		mid := int((first + last) / 2)
+		mid := (first + last) / 2
 		if slice[mid] == n {
 			return true
 		} else {
